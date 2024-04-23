@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "RSA Algorithm";
+}
+<form method="post" action="@Url.Action("RsaEncrypt","Rsa")">
+    <div class="form-group">
+        <label for="exampleInputEmail1">RSA Encrypt</label>
+        <input class="form-control" name="stringForEncrypt" id="RsaEncrypt" placeholder="Data for encrypt">
+        <small class="form-text text-muted">Be safe!</small>
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary">Encrypt</button>
+</form>
+
+@if (TempData["EncryptedText"] != null)
+{<h5> Encrypted result: </h5>
+    <br>
+    <div data-mdb-input-init class="form-outline">
+        <textarea class="form-control" id="textAreaExample2" rows="5">@TempData["EncryptedText"]</textarea>
+    </div>
+    <h5> Public key </h5>
+    <br>
+    <div data-mdb-input-init class="form-outline">
+        <textarea class="form-control" id="textAreaExample2" rows="5">@TempData["PublicKey"]</textarea>
+    </div>
+}
+
+<form method="post" action="@Url.Action("RsaDecrypt","Rsa")">
+    <div class="form-group mt-5">
+        <label for="Decrypt">RSA Decrypt</label>
+        <input class="form-control" id="DESDecrypt" name="encryptedString" placeholder="Data for decrypt">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Decrypt</button>
+</form>
+
+@if (TempData["DecryptedText"] != null)
+{<h5> Decrypted result: </h5>
+    <br>
+    <div data-mdb-input-init class="form-outline">
+    <div class="alert alert-success">
+        @TempData["DecryptedText"]
+    </div>
+    </div>
+    
+    <h5>Private Key:</h5>
+    <div data-mdb-input-init class="form-outline">
+        <textarea class="form-control" id="textAreaExample2" rows="5">@TempData["PrivateKey"]</textarea>
+    </div>
+
+}
+

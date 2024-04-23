@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "DES Algorithm";
+}
+<form method="post" action="@Url.Action("EncryptData","Des")">
+    <div class="form-group">
+        <label for="exampleInputEmail1">DES Encrypt</label>
+        <input class="form-control" name="stringForEncrypt" id="DESEncrypt" placeholder="Data for encrypt">
+        <small id="emailHelp" class="form-text text-muted">Be safe!</small>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Encrypt</button>
+</form>
+
+@if (TempData["DesEncrypted"] != null)
+{<h5> Encrypted result: </h5>
+    <hr>
+    <span class="d-block p-2 bg-primary text-white">@TempData["DesEncrypted"]</span>
+}
+
+<form method="post" action="@Url.Action("DecryptData","Des")">
+    <div class="form-group mt-5">
+        <label for="Decrypt">DES Decrypt</label>
+        <input  class="form-control" id="DESDecrypt" name="stringForDecrypt" placeholder="Data for decrypt">
+    </div>
+    <button type="submit" class="btn btn-primary">Decrypt</button>
+</form>
+
+@if (TempData["DesDecrypted"] != null)
+{<h5> Decrypted result: </h5>
+    <hr>
+    <span class="d-block p-2 bg-primary text-white">@TempData["DesDecrypted"]</span>
+}

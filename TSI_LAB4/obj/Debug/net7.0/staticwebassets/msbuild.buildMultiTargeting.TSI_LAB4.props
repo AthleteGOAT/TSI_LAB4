@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/TSI_LAB4.props" />
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSI_LAB4", "TSI_LAB4\TSI_LAB4.csproj", "{5E3ACDFF-46E9-42E2-80DE-A4AAE37D826E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E3ACDFF-46E9-42E2-80DE-A4AAE37D826E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3ACDFF-46E9-42E2-80DE-A4AAE37D826E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3ACDFF-46E9-42E2-80DE-A4AAE37D826E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3ACDFF-46E9-42E2-80DE-A4AAE37D826E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D170B362-F547-4640-ACF7-0683312EFBEA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{5E3ACDFF-46E9-42E2-80DE-A4AAE37D826E}|http">
+  <MonoDevelop.Ide.ItemProperties.TSI__LAB4 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TSI_LAB4/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="TSI_LAB4/Views/Home/SignatureDigital.cshtml" Line="16" Column="50" />
+      <File FileName="TSI_LAB4/Controllers/SignatureDigitalController.cs" Line="29" Column="1" />
+      <File FileName="TSI_LAB4/Controllers/DesController.cs" Line="12" Column="61" />
+      <File FileName="TSI_LAB4/Controllers/HomeController.cs" Line="30" Column="42" />
+      <File FileName="TSI_LAB4/Views/Home/DES.cshtml" Line="4" Column="1" />
+      <File FileName="TSI_LAB4/Views/Shared/_Layout.cshtml" Line="11" Column="7" />
+      <File FileName="TSI_LAB4/Controllers/RsaEncryptionHelper.cs" Line="38" Column="1" />
+      <File FileName="TSI_LAB4/Views/Home/RSA.cshtml" Line="41" Column="36" />
+      <File FileName="TSI_LAB4/Controllers/RsaController.cs" Line="53" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TSI_LAB4" expanded="True">
+            <Node name="TSI_LAB4">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
